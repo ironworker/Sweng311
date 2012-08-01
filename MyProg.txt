@@ -1,0 +1,7 @@
+run:
+Enter name: Mark
+Enter age: 59
+Enter company name: Jets
+"$Salary:$" 152384.12
+\$Name:$\ = Mark,	\$Age:$\ =  59,	\$Company Name:$\ = Jets 
+BUILD SUCCESSFUL (total time: 9 seconds)
