@@ -111,19 +111,7 @@ Graphics g;
         a=255*evt.getX()/jPanel3.getWidth();
         b=255*evt.getY()/jPanel3.getHeight();
         c=jSlider1.getValue();
-        /*
-        //jPanel3.getGraphics().clearRect(evt.getX()-100,evt.getY()-100,500,500);
-        GradientPaint gp = new GradientPaint(0,0,new Color(0,0,c), jPanel3.getWidth(),jPanel3.getHeight() , new Color(255,255,c));
-            Graphics2D g2d = (Graphics2D)jPanel3.getGraphics();
-            g2d.setPaint(gp);
-            g2d.fillRect(0, 0, jPanel3.getWidth(),jPanel3.getHeight());
-        //jPanel3.getGraphics().drawRect(evt.getX()-3,evt.getY()-3,3,3);
-        * */
-     
-         //c=jSlider1.getValue();
-         
         jPanel2.setBackground(new Color(a,b,c));
-        // TODO add your handling code here:
         }
     }//GEN-LAST:event_jPanel3MouseDragged
 
